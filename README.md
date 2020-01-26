@@ -44,7 +44,7 @@ http://artaqua.github.io/works/react/todolist/index.html
 http://artaqua.github.io/works/react/img-api-material/index.html   -->    
 
 ## Последние работы    
-http://mask-mask.surge.sh/   
+http://fox-fox.surge.sh/       
 http://camera-camera.surge.sh/project-special.html    
 http://kite-kite.surge.sh/             
 http://incompetent-hate.surge.sh/      
