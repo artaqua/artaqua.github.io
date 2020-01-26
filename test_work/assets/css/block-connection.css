@@ -1,0 +1,71 @@
+.connection__title {
+  text-align: center; }
+  @media only screen and (max-width: 500px) {
+    .connection__title {
+      line-height: 24px; } }
+
+.connection__btns {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin: 0 -9px;
+  margin-top: 25px; }
+  @media only screen and (max-width: 1100px) {
+    .connection__btns {
+      margin: 0;
+      margin-top: 25px; } }
+  @media only screen and (max-width: 800px) {
+    .connection__btns {
+      margin: 0 -10px;
+      margin-top: 25px; } }
+  @media only screen and (max-width: 500px) {
+    .connection__btns {
+      flex-wrap: wrap;
+      margin: 0;
+      margin-top: 10px; } }
+
+.connection__btn {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  flex-basis: calc(25% - 18px);
+  max-width: calc(25% - 18px);
+  padding: 0 10px;
+  margin: 0 9px; }
+  @media only screen and (max-width: 1100px) {
+    .connection__btn {
+      flex-basis: 25%;
+      max-width: 25%; } }
+  @media only screen and (max-width: 900px) {
+    .connection__btn {
+      height: 54px; } }
+  @media only screen and (max-width: 800px) {
+    .connection__btn {
+      flex-basis: 50%;
+      max-width: 50%;
+      margin: 0 10px; } }
+  @media only screen and (max-width: 500px) {
+    .connection__btn {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin: 8px 0;
+      height: 54px;
+      font-size: 14px; } }
+  .connection__btn_grey {
+    color: #2f3131;
+    background: #e8e8e8; }
+    .connection__btn_grey:hover {
+      color: #2f3131;
+      background: #e8e8e8; }
+      .connection__btn_grey:hover .connection__phone {
+        color: black; }
+
+.connection__phone {
+  color: black;
+  font-weight: 700; }

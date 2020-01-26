@@ -1,0 +1,113 @@
+.location-build__head-title {
+  margin-bottom: 10px; }
+  @media only screen and (max-width: 750px) {
+    .location-build__head-title {
+      margin-bottom: 5px; } }
+
+.location-build__row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -10px; }
+
+.location-build__col-left {
+  flex-basis: 50%;
+  max-width: 50%;
+  -webkit-box-flex: 0;
+          flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 10px; }
+  @media only screen and (max-width: 750px) {
+    .location-build__col-left {
+      flex-basis: 100%;
+      max-width: 100%; } }
+
+.location-build__col-right {
+  flex-basis: 50%;
+  max-width: 50%;
+  -webkit-box-flex: 0;
+          flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 10px; }
+  @media only screen and (max-width: 750px) {
+    .location-build__col-right {
+      flex-basis: 100%;
+      max-width: 100%; } }
+
+.location-build__item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin-top: 12px; }
+
+.location-build__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 3px; }
+
+.location-build__list-metro {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: start;
+          align-items: flex-start; }
+
+.location-build__item-metro {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  margin: 1px 0;
+  color: #444646;
+  -webkit-transition: none;
+  transition: none; }
+  .location-build__item-metro:hover .location-build__name {
+    color: #f66036;
+    text-decoration: underline; }
+
+.location-build__name {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #444646;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+  line-height: 20px;
+  margin-right: 8px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease; }
+
+.location-build__metro {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #444646;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease; }
+
+.location-build__icon {
+  width: 14px;
+  height: 14px;
+  fill: #c8c8c8;
+  margin-right: 4px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease; }

@@ -1,0 +1,214 @@
+@charset "UTF-8";
+.developers__special-offer {
+  padding: 0 45px;
+  margin-top: 25px; }
+  @media only screen and (max-width: 600px) {
+    .developers__special-offer {
+      margin-top: 20px; } }
+  @media only screen and (max-width: 500px) {
+    .developers__special-offer {
+      width: 100%;
+      padding: 0; } }
+
+.table-devs {
+  position: relative;
+  width: 100%; }
+  .table-devs__body {
+    width: 100%;
+    border-collapse: collapse; }
+    @media only screen and (max-width: 600px) {
+      .table-devs__body {
+        margin-top: 15px; } }
+  .table-devs__row {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    display: table;
+    background: #fff;
+    margin-bottom: 6px; }
+    @media only screen and (max-width: 600px) {
+      .table-devs__row {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+                flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        padding-left: 43px;
+        margin-bottom: 2px; } }
+    .table-devs__row_head {
+      background: none; }
+      .table-devs__row_head .table-similar__row {
+        background: none; }
+      .table-devs__row_head .table-similar__cell_1 {
+        font-weight: normal; }
+  .table-devs__cell {
+    z-index: 1;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 14%;
+    font-size: 14px;
+    color: #444646;
+    padding: 18px 0 17px 0;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    @media only screen and (max-width: 900px) {
+      .table-devs__cell {
+        font-size: 13px;
+        padding: 18px 5px 17px 5px;
+        vertical-align: middle;
+        text-align: center; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell {
+        display: block;
+        flex-basis: 50%;
+        max-width: 50%;
+        text-align: left;
+        padding: 0;
+        margin-bottom: -1px; } }
+  .table-devs__cell_1 {
+    width: 10%;
+    padding-left: 25px;
+    font-weight: 700; }
+    @media only screen and (max-width: 900px) {
+      .table-devs__cell_1 {
+        padding-left: 15px; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell_1 {
+        position: absolute;
+        top: 10px;
+        left: 2px; } }
+  .table-devs__cell_2 {
+    width: 40%; }
+    @media only screen and (max-width: 1000px) {
+      .table-devs__cell_2 {
+        width: 30%; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell_2 {
+        width: auto;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 4px;
+        letter-spacing: 0.5px; } }
+  .table-devs__cell_3 {
+    width: 14%; }
+    @media only screen and (max-width: 1000px) {
+      .table-devs__cell_3 {
+        width: 16%; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell_3 {
+        width: auto;
+        flex-basis: 50%;
+        max-width: 50%; }
+        .table-devs__cell_3:before {
+          display: block;
+          content: 'строится, м2';
+          font-size: 12px;
+          font-family: "Open Sans", "Arial", sans-serif;
+          color: #949898; } }
+    @media only screen and (max-width: 400px) {
+      .table-devs__cell_3 {
+        flex-basis: 40%;
+        max-width: 40%; } }
+  .table-devs__cell_4 {
+    width: 19%; }
+    @media only screen and (max-width: 1000px) {
+      .table-devs__cell_4 {
+        width: 23%; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell_4 {
+        width: auto;
+        flex-basis: 50%;
+        max-width: 50%; }
+        .table-devs__cell_4:before {
+          display: block;
+          content: 'с переносом срока, м2';
+          font-size: 12px;
+          font-family: "Open Sans", "Arial", sans-serif;
+          color: #949898; } }
+    @media only screen and (max-width: 400px) {
+      .table-devs__cell_4 {
+        flex-basis: 60%;
+        max-width: 60%; } }
+  .table-devs__cell_5 {
+    width: 8%; }
+    @media only screen and (max-width: 1000px) {
+      .table-devs__cell_5 {
+        width: 10%; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell_5 {
+        width: auto;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-top: 3px; }
+        .table-devs__cell_5:before {
+          display: block;
+          content: '%';
+          font-size: 12px;
+          font-family: "Open Sans", "Arial", sans-serif;
+          color: #949898; } }
+    @media only screen and (max-width: 400px) {
+      .table-devs__cell_5 {
+        flex-basis: 40%;
+        max-width: 40%; } }
+  .table-devs__cell_6 {
+    width: 9%; }
+    @media only screen and (max-width: 1000px) {
+      .table-devs__cell_6 {
+        width: 11%; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__cell_6 {
+        width: auto;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-top: 3px; }
+        .table-devs__cell_6:before {
+          display: block;
+          content: 'кол-во  жк';
+          font-size: 12px;
+          font-family: "Open Sans", "Arial", sans-serif;
+          color: #949898; } }
+    @media only screen and (max-width: 400px) {
+      .table-devs__cell_6 {
+        flex-basis: 60%;
+        max-width: 60%; } }
+  .table-devs__head {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: -15px; }
+    @media only screen and (max-width: 900px) {
+      .table-devs__head {
+        margin-top: 10px; } }
+    @media only screen and (max-width: 700px) {
+      .table-devs__head {
+        margin-top: 0; } }
+    @media only screen and (max-width: 600px) {
+      .table-devs__head {
+        display: none; } }
+  .table-devs__head-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #949898; }
+    @media only screen and (max-width: 900px) {
+      .table-devs__head-title {
+        letter-spacing: 0; } }
+  .table-devs__link {
+    position: relative;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-align: center;
+            align-items: center;
+    color: #f66036;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease; }
+    .table-devs__link:hover {
+      color: #f66036;
+      text-decoration: underline;
+      -webkit-transform: translateX(2px);
+              transform: translateX(2px); }

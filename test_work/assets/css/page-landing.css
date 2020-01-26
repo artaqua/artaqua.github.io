@@ -1,0 +1,38 @@
+.landing__breadcrumbs {
+  margin-top: 20px; }
+  @media only screen and (max-width: 1200px) {
+    .landing__breadcrumbs {
+      margin-top: 20px; } }
+
+.landing__module-slider {
+  margin-top: 30px; }
+
+.landing__features {
+  margin-top: 18px; }
+  @media only screen and (max-width: 500px) {
+    .landing__features {
+      margin-top: 0; } }
+
+.landing__slider-title {
+  margin-bottom: 20px; }
+
+.landing__title-about {
+  margin-top: 40px; }
+
+.landing__banklist {
+  padding: 70px 0; }
+  @media only screen and (max-width: 1200px) {
+    .landing__banklist {
+      padding: 50px 0; } }
+  @media only screen and (max-width: 800px) {
+    .landing__banklist {
+      padding: 37px 0; } }
+
+.landing__indent {
+  margin-top: 70px; }
+  @media only screen and (max-width: 1200px) {
+    .landing__indent {
+      margin-top: 50px; } }
+  @media only screen and (max-width: 800px) {
+    .landing__indent {
+      margin-top: 37px; } }

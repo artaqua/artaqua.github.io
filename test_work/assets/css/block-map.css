@@ -1,0 +1,78 @@
+.map__gk {
+  height: 480px; }
+  @media only screen and (max-width: 900px) {
+    .map__gk {
+      height: 370px; } }
+  @media only screen and (max-width: 600px) {
+    .map__gk {
+      height: 260px; } }
+
+.map-objects {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .map-objects:before {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 26, 26, 0.5); }
+  .map-objects__info {
+    z-index: 2;
+    position: relative;
+    padding: 75px 0 65px 0; }
+    @media only screen and (max-width: 600px) {
+      .map-objects__info {
+        padding: 95px 0 85px 0;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-box-align: center;
+                align-items: center; } }
+  .map-objects__title {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0; }
+    @media only screen and (max-width: 600px) {
+      .map-objects__title {
+        font-size: 16px;
+        text-align: center; } }
+  .map-objects__descr {
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 600px) {
+      .map-objects__descr {
+        font-size: 13px;
+        text-align: center; } }
+  .map-objects__link {
+    width: calc(25% - 15px);
+    background: #fff;
+    color: #444646;
+    margin-top: 80px; }
+    @media only screen and (max-width: 1200px) {
+      .map-objects__link {
+        width: calc(33.3333% - 10px); } }
+    @media only screen and (max-width: 900px) {
+      .map-objects__link {
+        width: calc(50% - 10px); } }
+    @media only screen and (max-width: 600px) {
+      .map-objects__link {
+        width: auto;
+        margin-top: 50px; } }
+    @media only screen and (max-width: 400px) {
+      .map-objects__link {
+        width: 100%; } }
+
+@media only screen and (max-width: 700px) {
+  .news-blog__title {
+    text-align: center; } }
