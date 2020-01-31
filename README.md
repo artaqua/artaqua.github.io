@@ -1,6 +1,6 @@
 ## **Works** :neckbeard:    
-https://greenside.com.ua/                 
-https://blagorod.ua/        
+https://greenside.com.ua/    (только frontend)             
+https://blagorod.ua/        (только frontend)    
 http://artaqua.github.io/works/regme/       
 http://artaqua.github.io/works/budtech/    
 http://artaqua.github.io/works/simfony/                               
