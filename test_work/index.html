@@ -4,1180 +4,274 @@
     <title>Home</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="null">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <link href="assets/img/favicon.ico" rel="shortcut icon">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans:400,600,700|Oswald:400,600,700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
-    <link href="assets/css/common.css" rel="stylesheet">
-    <link href="assets/css/block-filter.css" rel="stylesheet">
-    <link href="assets/css/block-offer.css" rel="stylesheet">
-    <link href="assets/css/block-map.css" rel="stylesheet">
-    <link href="assets/css/block-news.css" rel="stylesheet">
-    <link href="assets/css/block-stock.css" rel="stylesheet">
-    <link href="assets/css/block-buildings.css" rel="stylesheet">
-    <link href="assets/css/block-developers.css" rel="stylesheet">
-    <link href="assets/css/block-descr-block.css" rel="stylesheet">
-    <link href="assets/css/block-popular-queries.css" rel="stylesheet">
-    <link href="assets/css/block-popups.css" rel="stylesheet">
-    <link href="assets/css/page-index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Playfair+Display:400,400i,700,700i&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
   </head>
-  <body class="page">
-    <!-- Header-->
-    <header class="header-page">
-      <div class="container-fluid">
-        <div class="header-page__inner"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt=""></a>
-          <nav class="nav-page header-page__nav-page">
-            <ul class="list-nav-page">
-              <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Квартиры</a></li>
-              <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Новостройки</a></li>
-              <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Коммерческая недвижимость</a></li>
-              <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Застройщики</a></li>
-            </ul>
-          </nav><a class="favorite header-page__favorite" href="#">
-            <svg class="favorite__icon">
-              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-star"></use>
-            </svg><span class="favorite__name">Избранное </span><span class="favorite__count">(5)</span></a>
-        </div>
-      </div>
-    </header>
-    <!-- Sidebar menu-->
-    <aside class="sidebar-menu page__sidebar-menu" style="display: none;"><a class="sidebar-menu__close" href="#"></a>
-      <div class="sidebar-menu__body">
-        <h4 class="sidebar-menu__name">ЖК "Южное Видное"</h4>
-        <ul class="list-nav-sidebar">
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Квартиры</a></li>
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">О проекте</a></li>
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Застройщик</a></li>
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Услович покупки</a></li>
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Инфраструктура</a></li>
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Динамика стройки</a></li>
-          <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Правовая документация</a></li>
-        </ul><a class="favorite sidebar-menu__favorite" href="#">
-          <svg class="favorite__icon">
-            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-star"></use>
-          </svg><span class="favorite__name">Избранное </span><span class="favorite__count">(5)</span></a>
-        <div class="sidebar-menu__hr"></div><a class="logo sidebar-menu__logo" href="index.html"><img src="assets/img/logo.png" alt=""></a>
-        <nav class="nav-page sidebar-menu__nav-page">
-          <ul class="list-nav-sidebar">
-            <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Квартиры</a></li>
-            <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Новостройки</a></li>
-            <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Коммерческая недвижимость</a></li>
-            <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Застройщики</a></li>
-          </ul>
-        </nav>
-      </div>
-    </aside>
-    <!-- Content-->
-    <main>
-      <div class="page__content">
-        <div class="filter" style="background-image: url(assets/img/filter/filter-bg.jpg)">
-          <div class="container-fluid">
-            <div class="filter__inner">
-              <h2 class="filter__head-title">Гипермаркет недвижимости Kvartyroom.ru<br> <span class="filter__lighten">30000</span> квартир в <span class="filter__lighten">100</span> новостройках</h2>
-              <form action="#">
-                <div class="filter__opts">
-                  <div class="filter__col-left">
-                    <div class="dropdown"><a class="dropdown__link" href="#"> <span class="dropdown__link-text">Студия</span>
-                        <svg class="dropdown__icon-link">
-                          <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-down"></use>
-                        </svg></a>
-                      <div class="dropdown__content">
-                        <div class="opts">
-                          <label class="opts__field">
-                            <input class="opts__input" type="checkbox" checked><span class="opts__text">Студия</span>
-                          </label>
-                          <label class="opts__field">
-                            <input class="opts__input" type="checkbox"><span class="opts__text">1-комнатная</span>
-                          </label>
-                          <label class="opts__field">
-                            <input class="opts__input" type="checkbox"><span class="opts__text">2-комнатная</span>
-                          </label>
-                          <label class="opts__field">
-                            <input class="opts__input" type="checkbox"><span class="opts__text">3-комнатная</span>
-                          </label>
-                          <label class="opts__field">
-                            <input class="opts__input" type="checkbox"><span class="opts__text">4 и более комнат</span>
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="filter__col-center">
-                    <div class="filter-price">
-                      <input class="filter-price__input filter-price__input_from" type="text" placeholder="Цена от">
-                      <input class="filter-price__input filter-price__input_to" type="text" placeholder="Цена до" value="до 2 800 000"><span class="filter-price__line"></span><span class="filter-price__valute">руб.</span>
-                    </div>
-                  </div>
-                  <div class="filter__col-right">
-                    <div class="filter-search"><span class="filter-search__placeholder">Адрес или ЖК</span>
-                      <input class="filter-search__input" type="text">
-                      <div class="filter-search__helpers"><a class="filter-search__helpers-item" href="#" data-tab-link="0">Метро</a><a class="filter-search__helpers-item" href="#" data-tab-link="1">Район</a></div>
-                      <div class="list-search filter-search__list-search"><a class="list-search__item" href="#">
-                          <svg class="list-search__icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-location"></use>
-                          </svg><span class="list-search__type">Адрес</span><span class="list-search__name">Нижний <strong>Царицынский </strong>пруд</span></a><a class="list-search__item" href="#">
-                          <svg class="list-search__icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-metro"></use>
-                          </svg><span class="list-search__type">метро</span><span class="list-search__name list-search__name_metro"><strong>Царицыно</strong>, Москва</span></a><a class="list-search__item" href="#">
-                          <svg class="list-search__icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-place"></use>
-                          </svg><span class="list-search__type">Район</span><span class="list-search__name"><strong>Царицыно</strong>, Москва</span></a><a class="list-search__item" href="#">
-                          <svg class="list-search__icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-building"></use>
-                          </svg><span class="list-search__type">ЖК</span><span class="list-search__name">Жилой комплекс <strong>Царицыно</strong>-2</span></a><a class="list-search__item" href="#">
-                          <svg class="list-search__icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-train"></use>
-                          </svg><span class="list-search__type">Ж/Д</span><span class="list-search__name"><strong>Царицынский </strong>пруд</span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="filter__footer">
-                  <div class="prev-sesion filter__prev-sesion"><span class="prev-sesion__title">Ранее вы искали:</span><span class="prev-sesion__message"><a class="prev-sesion__link" href="#">купить квартиру + 1 параметр</a></span></div>
-                  <div class="filter__btns"><a class="filter__on-map" href="#"> 
-                      <svg class="filter__icon-on-map">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-location"></use>
-                      </svg>На карте</a>
-                    <input class="filter__submit" type="submit" value="Показать 198 объявлений">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- Список Квартир-->
-        <div class="bg-wrapper-light">
-          <div class="container-fluid">
-            <div class="offer page__offer">
-              <div class="offer__head">
-                <h3 class="title-md">Выгодные предложения</h3>
-                <div class="location">
-                  <label class="location__field location__field_left">
-                    <input class="location__input" name="popular-offer" type="radio" checked><span class="location__text">Москва</span><span class="location__bold">Москва</span>
-                  </label>
-                  <div class="location__toggle"></div>
-                  <label class="location__field location__field_right">
-                    <input class="location__input" name="popular-offer" type="radio"><span class="location__text">Московская область</span><span class="location__bold">Московская область</span>
-                  </label>
-                </div>
-              </div>
-              <div class="list-offer">
-                <div class="list-offer__row">
-                  <div class="list-offer__col list-offer__col_1">
-                    <div class="list-offer__item"><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">24 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_2">
-                    <div class="list-offer__item"><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">16 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_3">
-                    <div class="list-offer__item"><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">32 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_4">
-                    <div class="list-offer__item"><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г.</span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__hidden-content">
-                    <div class="list-offer__col">
-                      <div class="list-offer__item"><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                        <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                          <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                          <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                          <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                              <svg class="offer-metro__icon">
-                                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                              </svg>10 мин.</span></div>
-                          <div class="offer-list-descr list-offer__offer-list-descr">
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г.</span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="list-offer__col">
-                      <div class="list-offer__item"><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                        <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                          <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                          <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                          <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                              <svg class="offer-metro__icon">
-                                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                              </svg>10 мин.</span></div>
-                          <div class="offer-list-descr list-offer__offer-list-descr">
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><a class="btn list-offer__show-more" href="#">Показать еще</a>
-              </div>
-            </div>
-            <div class="offer page__offer">
-              <div class="offer__head">
-                <h3 class="title-md">Популярные квартиры</h3>
-                <div class="location">
-                  <label class="location__field location__field_left">
-                    <input class="location__input" name="profit-offer" type="radio" checked><span class="location__text">Москва</span><span class="location__bold">Москва</span>
-                  </label>
-                  <div class="location__toggle"></div>
-                  <label class="location__field location__field_right">
-                    <input class="location__input" name="profit-offer" type="radio"><span class="location__text">Московская область</span><span class="location__bold">Московская область</span>
-                  </label>
-                </div>
-              </div>
-              <div class="list-offer">
-                <div class="list-offer__row">
-                  <div class="list-offer__col list-offer__col_1">
-                    <div class="list-offer__item">
-                      <div class="list-offer__views">
-                        <svg class="list-offer__views-icon">
-                          <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-views"></use>
-                        </svg>Просмотров: 4567
-                      </div><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">24 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_2">
-                    <div class="list-offer__item">
-                      <div class="list-offer__views">
-                        <svg class="list-offer__views-icon">
-                          <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-views"></use>
-                        </svg>Просмотров: 4567
-                      </div><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_3">
-                    <div class="list-offer__item">
-                      <div class="list-offer__views">
-                        <svg class="list-offer__views-icon">
-                          <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-views"></use>
-                        </svg>Просмотров: 4567
-                      </div><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г. </span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_4">
-                    <div class="list-offer__item">
-                      <div class="list-offer__views">
-                        <svg class="list-offer__views-icon">
-                          <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-views"></use>
-                        </svg>Просмотров: 4567
-                      </div><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                      <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                        <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г.</span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__hidden-content">
-                    <div class="list-offer__col">
-                      <div class="list-offer__item">
-                        <div class="list-offer__views">
-                          <svg class="list-offer__views-icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-views"></use>
-                          </svg>Просмотров: 4567
-                        </div><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                        <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                          <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                          <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                          <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                              <svg class="offer-metro__icon">
-                                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                              </svg>10 мин.</span></div>
-                          <div class="offer-list-descr list-offer__offer-list-descr">
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г.</span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="list-offer__col">
-                      <div class="list-offer__item">
-                        <div class="list-offer__views">
-                          <svg class="list-offer__views-icon">
-                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-views"></use>
-                          </svg>Просмотров: 4567
-                        </div><a href="#"><img class="list-offer__img" src="assets/img/plans/img-1.png" alt=""></a>
-                        <div class="list-offer__info"><a class="list-offer__name" href="#">1-комн. квартира, 24,5 м2</a>
-                          <div class="offer-price"><span class="offer-price__full">2 178 000 руб.</span><span class="offer-price__credit">от 32 512 руб/мес</span></div>
-                          <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                          <div class="offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                              <svg class="offer-metro__icon">
-                                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                              </svg>10 мин.</span></div>
-                          <div class="offer-list-descr list-offer__offer-list-descr">
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолит-кирпич</span></div>
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Стоимость м2: </span><span class="offer-list-descr__descr">180 тыс руб</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Этаж: </span><span class="offer-descr-inline__descr">10 из 21   </span><a class="offer-descr-inline__link" href="#">еще 14 похожих квартир</a></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Отделка: </span><span class="offer-descr-inline__descr">нет данных  </span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Срок сдачи: </span><span class="offer-descr-inline__descr offer-descr-inline__descr_orange">2 квартал 2020 г.        </span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><a class="btn list-offer__show-more" href="#">Показать еще</a>
-              </div>
-            </div>
-            <div class="offer page__offer">
-              <div class="offer__head">
-                <h3 class="title-md">Новостройки для инвестиций</h3>
-                <div class="location">
-                  <label class="location__field location__field_left">
-                    <input class="location__input" name="in-develop" type="radio" checked><span class="location__text">Москва</span><span class="location__bold">Москва</span>
-                  </label>
-                  <div class="location__toggle"></div>
-                  <label class="location__field location__field_right">
-                    <input class="location__input" name="in-develop" type="radio"><span class="location__text">Московская область</span><span class="location__bold">Московская область</span>
-                  </label>
-                </div>
-              </div>
-              <div class="list-offer">
-                <div class="list-offer__row">
-                  <div class="list-offer__col list-offer__col_1">
-                    <div class="list-offer__item list-offer__item_big"><a class="list-offer__preview" href="#"><img class="list-offer__img-preview" src="assets/img/new-buildings/img-1.jpg" alt="">
-                        <div class="list-offer__deadline">Срок сдачи III кв. 2018</div></a>
-                      <div class="list-offer__info"><a class="list-offer__name list-offer__name_big" href="#">ЖК Люберцы 2018</a>
-                        <p class="list-offer__address">МО, Каштановая аллея, 5</p>
-                        <div class="offer-metro list-offer__offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолитный</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Цена за м2 от:</span><span class="offer-list-descr__descr">116 710 руб.</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">В продаже квартир: </span><span class="offer-descr-inline__descr">150</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline list-offer__offer-descr-inline_rooms">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Студии (от 23 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">1КК (от 38 м2):</span><span class="offer-descr-inline__descr">от 225 022 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">2КК (от 59 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">3КК (от 78 м2):</span><span class="offer-descr-inline__descr">от 18 115 000 руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Состояние:</span><span class="offer-descr-inline__descr">Строится</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Застройщик: </span><span class="offer-descr-inline__descr">ГК Гранель</span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_2">
-                    <div class="list-offer__item list-offer__item_big"><a class="list-offer__preview" href="#"><img class="list-offer__img-preview" src="assets/img/new-buildings/img-2.jpg" alt="">
-                        <div class="list-offer__deadline">Срок сдачи III кв. 2018</div></a>
-                      <div class="list-offer__info"><a class="list-offer__name list-offer__name_big" href="#">ЖК Ясный</a>
-                        <p class="list-offer__address">МО, Каштановая аллея, 5</p>
-                        <div class="offer-metro list-offer__offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолитный</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Цена за м2 от:</span><span class="offer-list-descr__descr">116 710 руб.</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">В продаже квартир: </span><span class="offer-descr-inline__descr">150</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline list-offer__offer-descr-inline_rooms">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Студии (от 23 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">1КК (от 38 м2):</span><span class="offer-descr-inline__descr">от 225 022 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">2КК (от 59 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">3КК (от 78 м2):</span><span class="offer-descr-inline__descr">от 18 115 000 руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Состояние:</span><span class="offer-descr-inline__descr offer-descr-inline__descr_green">Есть сданные дома</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Застройщик: </span><span class="offer-descr-inline__descr">ГК Гранель</span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_3">
-                    <div class="list-offer__item list-offer__item_big"><a class="list-offer__preview" href="#"><img class="list-offer__img-preview" src="assets/img/new-buildings/img-1.jpg" alt="">
-                        <div class="list-offer__deadline">Срок сдачи III кв. 2018</div></a>
-                      <div class="list-offer__info"><a class="list-offer__name list-offer__name_big" href="#">ЖК Люберцы 2018</a>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro list-offer__offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолитный</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Цена за м2 от:</span><span class="offer-list-descr__descr">116 710 руб.</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">В продаже квартир: </span><span class="offer-descr-inline__descr">150</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline list-offer__offer-descr-inline_rooms">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Студии (от 23 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">1КК (от 38 м2):</span><span class="offer-descr-inline__descr">от 225 022 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">2КК (от 59 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Состояние:</span><span class="offer-descr-inline__descr">Строится</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Застройщик: </span><span class="offer-descr-inline__descr">ГК Гранель</span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__col list-offer__col_4">
-                    <div class="list-offer__item list-offer__item_big"><a class="list-offer__preview" href="#"><img class="list-offer__img-preview" src="assets/img/new-buildings/img-2.jpg" alt="">
-                        <div class="list-offer__deadline">Срок сдачи III кв. 2018</div></a>
-                      <div class="list-offer__info"><a class="list-offer__name list-offer__name_big" href="#">ЖК Люберцы 2018</a>
-                        <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                        <div class="offer-metro list-offer__offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                            <svg class="offer-metro__icon">
-                              <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                            </svg>10 мин.</span></div>
-                        <div class="offer-list-descr list-offer__offer-list-descr">
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолитный</span></div>
-                          <div class="offer-list-descr__item"><span class="offer-list-descr__title">Цена за м2 от:</span><span class="offer-list-descr__descr">116 710 руб.</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">В продаже квартир: </span><span class="offer-descr-inline__descr">150</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline list-offer__offer-descr-inline_rooms">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Студии (от 23 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб </span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">1КК (от 38 м2):</span><span class="offer-descr-inline__descr">от 225 022 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">2КК (от 59 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">3КК (от 78 м2):</span><span class="offer-descr-inline__descr">от 18 115 000 руб</span></div>
-                        </div>
-                        <div class="offer-descr-inline list-offer__offer-descr-inline">
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Состояние:</span><span class="offer-descr-inline__descr offer-descr-inline__descr_green">Есть сданные дома</span></div>
-                          <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Застройщик: </span><span class="offer-descr-inline__descr">ГК Гранель</span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="list-offer__hidden-content">
-                    <div class="list-offer__col">
-                      <div class="list-offer__item list-offer__item_big"><a class="list-offer__preview" href="#"><img class="list-offer__img-preview" src="assets/img/new-buildings/img-1.jpg" alt="">
-                          <div class="list-offer__deadline">Срок сдачи III кв. 2018</div></a>
-                        <div class="list-offer__info"><a class="list-offer__name list-offer__name_big" href="#">ЖК Люберцы 2018</a>
-                          <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                          <div class="offer-metro list-offer__offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                              <svg class="offer-metro__icon">
-                                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                              </svg>10 мин.</span></div>
-                          <div class="offer-list-descr list-offer__offer-list-descr">
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолитный</span></div>
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Цена за м2 от:</span><span class="offer-list-descr__descr">116 710 руб.</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">В продаже квартир: </span><span class="offer-descr-inline__descr">150</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline list-offer__offer-descr-inline_rooms">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Студии (от 23 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб </span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">1КК (от 38 м2):</span><span class="offer-descr-inline__descr">от 225 022 000 руб</span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">2КК (от 59 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб</span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">3КК (от 78 м2):</span><span class="offer-descr-inline__descr">от 18 115 000 руб</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Состояние:</span><span class="offer-descr-inline__descr">Строится</span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Застройщик: </span><span class="offer-descr-inline__descr">ГК Гранель</span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="list-offer__col">
-                      <div class="list-offer__item list-offer__item_big"><a class="list-offer__preview" href="#"><img class="list-offer__img-preview" src="assets/img/new-buildings/img-2.jpg" alt="">
-                          <div class="list-offer__deadline">Срок сдачи III кв. 2018</div></a>
-                        <div class="list-offer__info"><a class="list-offer__name list-offer__name_big" href="#">ЖК Люберцы 2018</a>
-                          <p class="list-offer__address">Москва, ул. Элеваторная, 27</p>
-                          <div class="offer-metro list-offer__offer-metro"><span class="offer-metro__name">Большевиков</span><span class="offer-metro__road"> 
-                              <svg class="offer-metro__icon">
-                                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-car"></use>
-                              </svg>10 мин.</span></div>
-                          <div class="offer-list-descr list-offer__offer-list-descr">
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Тип дома: </span><span class="offer-list-descr__descr">Монолитный</span></div>
-                            <div class="offer-list-descr__item"><span class="offer-list-descr__title">Цена за м2 от:</span><span class="offer-list-descr__descr">116 710 руб.</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">В продаже квартир: </span><span class="offer-descr-inline__descr">150</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline list-offer__offer-descr-inline_rooms">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Студии (от 23 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб </span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">1КК (от 38 м2):</span><span class="offer-descr-inline__descr">от 225 022 000 руб</span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">2КК (от 59 м2):</span><span class="offer-descr-inline__descr">от 2 900 000 руб</span></div>
-                          </div>
-                          <div class="offer-descr-inline list-offer__offer-descr-inline">
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Состояние:</span><span class="offer-descr-inline__descr offer-descr-inline__descr_green">Есть сданные дома</span></div>
-                            <div class="offer-descr-inline__item"><span class="offer-descr-inline__title">Застройщик: </span><span class="offer-descr-inline__descr">ГК Гранель</span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><a class="btn list-offer__show-more" href="#">Показать еще</a>
-              </div>
-            </div>
-          </div>
-          <!-- Карта обьектов-->
-          <div class="map-objects page__map-objects" style="background-image: url(assets/img/map/map-bg.jpg)">
-            <div class="container-fluid">
-              <div class="map-objects__info">
-                <h3 class="map-objects__title">Карта объектов</h3>
-                <p class="map-objects__descr">Все новостройки Москвы и Московской области на карте</p><a class="btn map-objects__link" href="#">Смотреть карту</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Блог посты-->
-        <div class="container-fluid">
-          <div class="news-blog page__news-blog">
-            <h3 class="title-md news-blog__title">Новое в блоге</h3>
-            <div class="list-news-blog">
-              <div class="list-news-blog__row">
-                <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-1.jpg" alt="">
-                    <h3 class="list-news-blog__title">ГК «Гранель» передала ключи обманутым дольщикам ЖК «Квартал Лукино»</h3></a></div>
-                <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-2.jpg" alt="">
-                    <h3 class="list-news-blog__title">«Центр-2» - жизнь в центре событий</h3></a></div>
-                <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-3.jpg" alt="">
-                    <h3 class="list-news-blog__title">ГК «Гранель» передала ключи обманутым дольщикам ЖК «Квартал Лукино»</h3></a></div>
-                <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-4.jpg" alt="">
-                    <h3 class="list-news-blog__title">«Центр-2» - жизнь в центре событий</h3></a></div>
-                <div class="list-news-blog__hidden-content">
-                  <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-1.jpg" alt="">
-                      <h3 class="list-news-blog__title">ГК «Гранель» передала ключи обманутым дольщикам ЖК «Квартал Лукино»</h3></a></div>
-                  <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-2.jpg" alt="">
-                      <h3 class="list-news-blog__title">«Центр-2» - жизнь в центре событий</h3></a></div>
-                  <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-3.jpg" alt="">
-                      <h3 class="list-news-blog__title">ГК «Гранель» передала ключи обманутым дольщикам ЖК «Квартал Лукино»</h3></a></div>
-                  <div class="list-news-blog__col"><a class="list-news-blog__item" href="#"><img class="list-news-blog__img" src="assets/img/blog/new/img-4.jpg" alt="">
-                      <h3 class="list-news-blog__title">«Центр-2» - жизнь в центре событий</h3></a></div>
-                </div>
-              </div><a class="btn list-news-blog__show-more" href="#">Показать еще</a>
-            </div>
-          </div>
-          <!-- Акция-->
-          <div class="stock page__stock" style="background-image: url(assets/img/stock/stock-bg.jpg)">
-            <div class="stock__info">
-              <h3 class="stock__title">Специальное предложение <br>от ГК Гранель для постоянных клиентов!</h3><a class="btn stock__link" href="#">Подробнее об акции</a><span class="stock__date">Акция дествует до мая 2019</span>
-            </div>
-          </div>
-          <!-- Новостройки-->
-          <div class="buildings page__buildings">
-            <h3 class="title-md">Новостройки у метро</h3>
-            <div class="buildings__scroll">
-              <div class="swipe-icon buildings__swipe-icon buildings__swipe-icon_metro">
-                <svg class="swipe-icon__arrow">
-                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
-                </svg>
-              </div>
-              <div class="buildings__inner buildings__inner_metro">
-                <div class="list-metro buildings__list-metro">
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-1" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Сокольническая</span></a><a class="list-metro__link list-metro__link_branch-2" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Замоскворецкая</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-3" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Арбатско-Покровская</span></a><a class="list-metro__link list-metro__link_branch-4" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Серпуховско-Тимирязевская</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-1" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Филёвская</span></a><a class="list-metro__link list-metro__link_branch-2" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Кольцевая</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-4" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Калужско-Рижская</span></a><a class="list-metro__link list-metro__link_branch-1" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Калининская</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-5" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Таганско-Краснопресненская</span></a><a class="list-metro__link list-metro__link_branch-3" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Люблинско-Дмитровская</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-2" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Каховская</span></a><a class="list-metro__link list-metro__link_branch-1" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Бутовская</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-5" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">МЦК</span></a><a class="list-metro__link list-metro__link_branch-4" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">БКЛ</span></a></div>
-                  <div class="list-metro__item"><a class="list-metro__link list-metro__link_branch-6" href="#"><span class="list-metro__circle"></span><span class="list-metro__name">Монорельс</span></a></div>
-                </div>
-              </div>
-            </div>
-            <div class="list-regions buildings__list-regions">
-              <div class="list-regions__inner">
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Авиамоторная</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Автозаводская (14 линия)</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Автозаводская</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Академическая</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алексеевская</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алма-Атинская</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алтуфьево</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Библиотека им. Ленина</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Битцевский парк</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Борисово</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Боровицкая</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ботанический сад</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ботанический сад (14 линия)</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Братиславская</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ленинский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лермонтовский проспект</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лесопарковая</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лихоборы</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Локомотив</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ломоносовский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Петровский парк</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Петровско-Разумовская</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Печатники</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Пионерская</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Планерная</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Площадь Гагарина</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Площадь Ильича</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Локомотив</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ломоносовский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-              </div><a class="list-regions__show-more" href="#"> <span class="list-regions__show-more-text">Показать еще</span>
-                <svg class="list-regions__show-more-icon">
-                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-down"></use>
-                </svg></a>
-            </div>
-          </div>
-          <div class="buildings page__buildings">
-            <h3 class="title-md">Новостройки по районам</h3>
-            <div class="buildings__scroll">
-              <div class="swipe-icon buildings__swipe-icon buildings__swipe-icon_area">
-                <svg class="swipe-icon__arrow">
-                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
-                </svg>
-              </div>
-              <div class="buildings__inner buildings__inner_area">
-                <div class="list-area buildings__list-area">
-                  <div class="list-area__item"><a class="list-area__link" href="#">юао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">зао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">сао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">вао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">цао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">свао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">ювао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">юзао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">сзао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">Зелао</a></div>
-                  <div class="list-area__item"><a class="list-area__link" href="#">новая москва</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="list-regions buildings__list-regions">
-              <div class="list-regions__inner">
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Авиамоторная</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Автозаводская (14 линия)</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Автозаводская</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Академическая</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алексеевская</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алма-Атинская</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алтуфьево</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Библиотека им. Ленина</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Битцевский парк</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Борисово</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Боровицкая</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ботанический сад</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ботанический сад (14 линия)</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Братиславская</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ленинский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лермонтовский проспект</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лесопарковая</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лихоборы</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Локомотив</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ломоносовский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Петровский парк</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Петровско-Разумовская</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Печатники</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Пионерская</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Планерная</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Площадь Гагарина</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Площадь Ильича</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Локомотив</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ломоносовский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-              </div><a class="list-regions__show-more" href="#"> <span class="list-regions__show-more-text">Показать еще</span>
-                <svg class="list-regions__show-more-icon">
-                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-down"></use>
-                </svg></a>
-            </div>
-          </div>
-          <div class="buildings page__buildings">
-            <h3 class="title-md">Новостройки в Подмосковье</h3>
-            <div class="buildings__scroll">
-              <div class="swipe-icon buildings__swipe-icon buildings__swipe-icon_area-position">
-                <svg class="swipe-icon__arrow">
-                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
-                </svg>
-              </div>
-              <div class="buildings__inner buildings__inner_area-position">
-                <div class="list-area-position buildings__list-area-position">
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_north" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">север</span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_south" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">юг</span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_west" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">запад</span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_east" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">восток</span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_northwest" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">Северо-Запад </span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_northeast" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">Северо-Восток</span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_southwest" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">Юго-Запад</span></a></div>
-                  <div class="list-area-position__item"><a class="list-area-position__link list-area-position__link_southheast" href="#"> 
-                      <svg class="list-area-position__icon">
-                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-position"></use>
-                      </svg><span class="list-area-position__name">Юго-Восток</span></a></div>
-                </div>
-              </div>
-            </div>
-            <div class="list-regions buildings__list-regions">
-              <div class="list-regions__inner">
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Авиамоторная</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Автозаводская (14 линия)</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Автозаводская</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Академическая</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алексеевская</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алма-Атинская</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Алтуфьево</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Библиотека им. Ленина</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Битцевский парк</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Борисово</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Боровицкая</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ботанический сад</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ботанический сад (14 линия)</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Братиславская</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ленинский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лермонтовский проспект</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лесопарковая</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лихоборы</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Локомотив</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ломоносовский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Петровский парк</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Петровско-Разумовская</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Печатники</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Пионерская</span><span class="list-regions__count">(8)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Планерная</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Площадь Гагарина</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Площадь Ильича</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Локомотив</span><span class="list-regions__count">(3)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Ломоносовский проспект</span><span class="list-regions__count">(15)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-                <div class="list-regions__item"><a class="list-regions__link" href="#"> <span class="list-regions__name">Лубянка</span><span class="list-regions__count">(2)</span></a></div>
-              </div><a class="list-regions__show-more" href="#"> <span class="list-regions__show-more-text">Показать еще</span>
-                <svg class="list-regions__show-more-icon">
-                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-down"></use>
-                </svg></a>
-            </div>
-          </div>
-        </div>
-        <!-- Застройщики-->
-        <div class="bg-wrapper-light">
-          <div class="developers page__developers">
-            <div class="container-fluid">
-              <h3 class="title-md"> <span class="title-md__orange">ТОП 10 </span>застройщиков Московского региона по объему строящегося жилья</h3>
-              <div class="table-devs">
-                <div class="table-devs__head">
-                  <div class="table-devs__row table-devs__row_head">
-                    <div class="table-devs__cell table-devs__cell_1"><span class="table-devs__head-title">место</span></div>
-                    <div class="table-devs__cell table-devs__cell_2"><span class="table-devs__head-title">застройщик</span></div>
-                    <div class="table-devs__cell table-devs__cell_3"><span class="table-devs__head-title">строится, м2</span></div>
-                    <div class="table-devs__cell table-devs__cell_4"><span class="table-devs__head-title">переносом срока, м2</span></div>
-                    <div class="table-devs__cell table-devs__cell_5"><span class="table-devs__head-title">%</span></div>
-                    <div class="table-devs__cell table-devs__cell_6"><span class="table-devs__head-title">кол-во жк</span></div>
-                  </div>
-                </div>
-                <div class="table-devs__body">
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">1</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа ПИК</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">1 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">2</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">1 403 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">3</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">2 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">4</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">2 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">25</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">5</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">2 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">6</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">2 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">207 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">7</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">2 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">8</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">2 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">9</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">1 803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                  <div class="table-devs__row">
-                    <div class="table-devs__cell table-devs__cell_1">10</div>
-                    <div class="table-devs__cell table-devs__cell_2"> <a class="table-devs__link" href="#">Группа Самолет-Девелопмент</a></div>
-                    <div class="table-devs__cell table-devs__cell_3">803 607</div>
-                    <div class="table-devs__cell table-devs__cell_4">307 050</div>
-                    <div class="table-devs__cell table-devs__cell_5">10,95</div>
-                    <div class="table-devs__cell table-devs__cell_6">19</div>
-                  </div>
-                </div>
-              </div><a class="btn developers__special-offer" href="#">Спецпредложения застройщиков</a>
-            </div>
-          </div>
-        </div>
-        <!-- О нас-->
-        <div class="about-info page__about-info">
-          <div class="container-fluid">
-            <div class="title-md">О проекте</div>
-            <p class="about-info__descr">"Квартирум" - это портал о новостройках Москвы и Московской области. Здесь вы найдете актуальную базу квартир с удобной навигацией. Предусмотрена сортировка квартир по району Москвы, населенному пункту Подмосковья и близости определенных станций метро. Кроме того, есть возможность выбора жилого комплекса или квартиры по заданным параметрам. Еще одна опция - поиск по наименованию застройщика, позволяющий выбрать компанию, которой вы больше всего доверяете.</p>
-            <div class="about-info__hidden-content">
-              <p class="about-info__descr">На сайте доступна актуальная и подробная информация о новостройках: новости и фото со строительных площадок жилых комплексов, стоимость и планировки квартир и апартаментов, данные о застройщиках и партнерах проектов, контакты и многое другое. Здесь вы найдете полезную информацию о квартирах в новостройках и рынке первичного жилья в целом. На портале публикуются новости, которые позволяют ознакомиться с последними новинками и событиями в данном сегменте. Аналитика рынка недвижимости региона поможет разобраться в тех или иных процессах, происходящих сейчас в этой сфере. С помощью актуальных аналитических данных вы сделаете правильный выбор локации в городе при покупке квартиры, а также найдете ответы на многие вопросы, в том числе - почему стоимость жилья в разных частях города может существенно различаться. Почерпнуть полезную информацию можно из интересных статей об особенностях покупки, проживания и обустройства квартиры в новостройке. В разделе "Инфографика" приведены графические материалы, предназначенные для наглядного ознакомления с особенностями новостроек.</p>
-              <p class="about-info__descr">Это портал о новостройках Москвы и Московской области. Здесь вы найдете актуальную базу квартир с удобной навигацией. Предусмотрена сортировка квартир по району Москвы, населенному пункту Подмосковья и близости определенных станций метро. Кроме того, есть возможность выбора жилого комплекса или квартиры по заданным параметрам. Еще одна опция - поиск по наименованию застройщика, позволяющий выбрать компанию, которой вы больше всего доверяете. На сайте доступна актуальная и подробная информация о новостройках: новости и фото со строительных площадок жилых комплексов, стоимость и планировки квартир и апартаментов, данные о застройщиках и партнерах проектов, контакты и многое другое. </p>
-              <p class="about-info__descr">Здесь вы найдете полезную информацию о квартирах в новостройках и рынке первичного жилья в целом. На портале публикуются новости, которые позволяют ознакомиться с последними новинками и событиями в данном сегменте. Аналитика рынка недвижимости региона поможет разобраться в тех или иных процессах, происходящих сейчас в этой сфере.</p>
-            </div><a class="about-info__read-more" href="#">Показать все</a>
-          </div>
-        </div>
-        <!-- Популярные запросы-->
-        <div class="bg-wrapper-light">
-          <div class="popular-queries page__popular-queries">
-            <div class="container-fluid">
-              <div class="title-md">Популярные запросы</div>
-              <div class="list-queries popular-queries__list-queries"><a class="list-queries__item" href="#">Новостройки Новой Москвы</a><a class="list-queries__item" href="#">Жилые комплексы Эконом-Класса</a><a class="list-queries__item" href="#">Новостройки в Домодедово</a><a class="list-queries__item" href="#">Новостройки в Железнодорожном</a><a class="list-queries__item" href="#">Студии в Московской области</a><a class="list-queries__item" href="#">2-комнатные квартиры в Мытищах</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- Popup regions-->
-    <div class="popup-helpers">
-      <div class="popup-helpers__content"><a class="popup-helpers__close" href="#">
-          <svg class="popup-helpers__close-icon">
-            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-cross"></use>
-          </svg></a>
-        <div class="tab popup-helpers__tab">
-          <ul class="tab__nav">
-            <li class="tab__item"><a class="tab__link tab__link_active" href="#" data-tab=".tab__content-item_1"><span class="tab__name">Метро      </span></a></li>
-            <li class="tab__item"><a class="tab__link" href="#" data-tab=".tab__content-item_2"><span class="tab__name">Район</span></a></li>
-          </ul>
-          <div class="tab__contents">
-            <div class="tab__content-item tab__content-item_1">
-              <div class="popup-helpers__map">
-                <p>Карта метро</p>
-              </div>
-            </div>
-            <div class="tab__content-item tab__content-item_2">
-              <div class="list-region-helper popup-helpers__list-region-helper">
-                <div class="list-region-helper__inline">
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">НОВАЯ МОСКВА</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ЮАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ЗАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">САО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ВАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ЮАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ЗАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">САО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ВАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ЮАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ЗАО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">САО</a></div>
-                  <div class="list-region-helper__item-inline"><a class="list-region-helper__link-inline" href="#">ВАО</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">НОВАЯ МОСКВА</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ЮАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ЗАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">САО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ВАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a><a class="list-region-helper__link" href="#">Арбат</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ЦАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">СВАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ЗЕЛАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">СВАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ЗЕЛАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">СВАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a><a class="list-region-helper__link" href="#">Арбат</a><a class="list-region-helper__link" href="#">Якиманка</a></div>
-                </div>
-                <div class="list-region-helper__item"><a class="list-region-helper__big-link" href="#">ЗЕЛАО</a>
-                  <div class="list-region-helper__inner"><a class="list-region-helper__link" href="#">Замоскворечье</a><a class="list-region-helper__link" href="#">Красносельский</a><a class="list-region-helper__link" href="#">Таганский</a><a class="list-region-helper__link" href="#">Мещанский</a><a class="list-region-helper__link" href="#">Хамовники</a><a class="list-region-helper__link" href="#">Тверской</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <body style="opacity: 0;">
+    <!-- Loader-->
+    <div class="loader">
+      <div class="loader__elems">
+        <div class="loader__circle loader__circle_one"></div>
+        <div class="loader__circle loader__circle_two"></div>
       </div>
     </div>
-    <!-- Footer-->
-    <footer class="footer-page">
-      <div class="container-fluid">
-        <div class="footer-top">
-          <div class="footer-top__col-left"><span class="footer-top__name">Kvartyroom.ru</span>
-            <p class="footer-top__about">База проверенных новостроек Москвы и Московской области<a class="footer-top__link" href="#">wiki-cловарь</a></p>
-          </div>
-          <div class="footer-top__col-right">
-            <div class="list-footer-inline"><a class="list-footer-inline__item"><img class="list-footer-inline__ad" src="assets/img/analytics/ad.jpg" alt=""><span class="list-footer-inline__text">Реклама на сайте</span></a><a class="list-footer-inline__item list-footer-inline__item_social">
-                <div class="list-footer-inline__icon">
-                  <svg class="list-footer-inline__svg">
-                    <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-vk"></use>
-                  </svg>
-                </div><span class="list-footer-inline__text">Вконтакте</span></a><a class="list-footer-inline__item list-footer-inline__item_social">
-                <div class="list-footer-inline__icon">
-                  <svg class="list-footer-inline__svg">
-                    <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-facebook"></use>
-                  </svg>
-                </div><span class="list-footer-inline__text">Facebook</span></a></div>
-          </div>
-        </div>
-        <div class="footer-bottom footer-page__footer-bottom">
-          <div class="footer-bottom__col-left">
-            <div class="copyright">
-              <p class="copyright__left-block">Copyright © 2014-2019 <br>Все права защищены.</p>
-              <p class="copyright__right-block">При полном или частичном использовании материалов с сайта в интернете активная ссылка на Kvartyroom.ru обязательна.</p>
+    <div class="layout">
+      <!-- Header-->
+      <header class="header-page">
+        <div class="container-fluid">
+          <div class="header-page__inner">
+            <div class="header-page__top">
+              <div class="header-page__left-content"><a class="mailto" href="mailto:info.pochtaaa@mail.ru">
+                  <svg class="mailto__icon">
+                    <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-mail"></use>
+                  </svg>info.pochtaaa@mail.ru</a><a class="shops" href="#">Магазины</a></div>
+              <button class="btn-menu header-page__btn-menu"><span class="btn-menu__lines"><span class="btn-menu__line btn-menu__line_one"></span><span class="btn-menu__line btn-menu__line_two"></span><span class="btn-menu__line btn-menu__line_three"></span></span></button><a class="logo" href="index.html"><img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 101 34'%3E%3C/svg%3E" data-src="assets/img/logo.png" alt=""></a>
+              <div class="request-call"><a class="request-call__numb" href="tel:+88461001010">
+                  <svg class="request-call__icon">
+                    <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-phone"></use>
+                  </svg>8 (846) 100-10-10</a><a class="request-call__link" href="#">Заказать звонок</a></div>
+            </div>
+            <div class="header-page__bottom">
+              <ul class="list-nav-page">
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Главная</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Каталог</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">О нас</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Акции</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Доставка</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Оплата</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Контакты</a></li>
+                <li class="list-nav-page__item"><a class="list-nav-page__link" href="#">Отзывы</a></li>
+              </ul>
             </div>
           </div>
-          <div class="footer-bottom__col-right">
-            <p class="footer-bottom__disclaimer">Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой. <a class="footer-bottom__more" href="#">Подробнее</a></p>
+        </div>
+      </header>
+      <!-- Sidebar menu-->
+      <aside class="sidebar-menu page__sidebar-menu" style="display: none;"><a class="sidebar-menu__close" href="#"></a>
+        <div class="sidebar-menu__body">
+          <nav class="nav-page sidebar-menu__nav-page">
+            <ul class="list-nav-sidebar">
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Главная</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Каталог</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Акции</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link list-nav-sidebar__link_active" href="#">Доставка</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Оплата</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Отзывы</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">О нас</a></li>
+              <li class="list-nav-sidebar__item"><a class="list-nav-sidebar__link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="sidebar-menu__bottom"><a class="shops-sidebar" href="#">Магазины</a><a class="mailto-sidebar" href="mailto:info.pochtaaa@mail.ru">
+              <svg class="mailto__icon">
+                <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-mail"></use>
+              </svg>info.pochtaaa@mail.ru</a>
+            <div class="call-sidebar"><a class="call-sidebar__numb" href="tel:+88461001010">
+                <svg class="call-sidebar__icon">
+                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-phone"></use>
+                </svg>8 (846) 100-10-10</a><a class="call-sidebar__link" href="#">Заказать звонок</a></div>
           </div>
         </div>
-      </div>
-    </footer>
+      </aside>
+      <!-- Content-->
+      <main>
+        <div class="layout__content">
+          <div class="page-index">
+            <!-- Preview slider-->
+            <div class="preview-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="preview-slider__item lazy" data-bg="url(assets/img/preview-slider/slide.jpg)">
+                    <div class="container-fluid">
+                      <div class="preview-slider__info">
+                        <h3 class="preview-slider__title">Межкомнатные двери с гарантией качества</h3>
+                        <p class="preview-slider__descr">Это просто пример УТП на баннере. Данный шаблон можно будет заверстать </p><a class="preview-slider__btn">Посмотреть каталог</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview-slider__item lazy" data-bg="url(assets/img/preview-slider/slide-2.jpg)">
+                    <div class="container-fluid">
+                      <div class="preview-slider__info">
+                        <h3 class="preview-slider__title">Lorem ipsum dolor sit amet.</h3>
+                        <p class="preview-slider__descr">Это просто пример УТП на баннере. Данный шаблон можно будет заверстать </p><a class="preview-slider__btn">Посмотреть каталог</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview-slider__item lazy" data-bg="url(assets/img/preview-slider/slide.jpg)">
+                    <div class="container-fluid">
+                      <div class="preview-slider__info">
+                        <h3 class="preview-slider__title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+                        <p class="preview-slider__descr">Это просто пример УТП на баннере. Данный шаблон можно будет заверстать </p><a class="preview-slider__btn">Посмотреть каталог</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <!-- Popular styles-->
+            <div class="container-fluid">
+              <div class="popular-styles layout__pad-top">
+                <div class="box-section lazy" data-bg="url(assets/img/popular-styles/dots.png)">
+                  <div class="box-section__head">
+                    <div class="title-md">Популярные стили</div><a class="box-section__link" href="#">Перейти в каталог
+                      <svg class="box-section__icon">
+                        <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
+                      </svg></a>
+                  </div>
+                  <div class="list-popular-styles popular-styles__list-popular-styles">
+                    <div class="list-popular-styles__row">
+                      <div class="list-popular-styles__col"><a class="list-popular-styles__item list-popular-styles__item_purple" href="#">
+                          <div class="list-popular-styles__info"> 
+                            <h4 class="list-popular-styles__title">Классические двери</h4>
+                            <p class="list-popular-styles__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor netus commodo mattis sapien sit quam massa eros. Sed eu orci at elementum mi sit. Volutpat turpis feugiat lorem cras eu morbi ipsum</p>
+                          </div>
+                          <div class="list-popular-styles__img lazy" data-bg="url(assets/img/popular-styles/product-1.png)"></div></a></div>
+                      <div class="list-popular-styles__col"><a class="list-popular-styles__item list-popular-styles__item_green" href="#">
+                          <div class="list-popular-styles__info"> 
+                            <h4 class="list-popular-styles__title">Неоклассика</h4>
+                            <p class="list-popular-styles__descr">Двери в стиле «неоклассика», изготовленные из массива сосны. Двери могут быть покрыты натуральным шпоном, либо выполнены в эмалевых покрытиях. Для остекления дверей из наших коллекций, мы используются безопасные закаленные стекла.</p>
+                          </div>
+                          <div class="list-popular-styles__img lazy" data-bg="url(assets/img/popular-styles/product-2.png)"></div></a></div>
+                      <div class="list-popular-styles__col"><a class="list-popular-styles__item list-popular-styles__item_grey" href="#">
+                          <div class="list-popular-styles__info"> 
+                            <h4 class="list-popular-styles__title">Неоклассика</h4>
+                            <p class="list-popular-styles__descr">Двери в стиле «неоклассика», изготовленные из массива сосны. Двери могут быть покрыты натуральным шпоном, либо выполнены в эмалевых покрытиях. Для остекления дверей из наших коллекций, мы используются безопасные закаленные стекла.</p>
+                          </div>
+                          <div class="list-popular-styles__img lazy" data-bg="url(assets/img/popular-styles/product-3.png)"></div></a></div>
+                      <div class="list-popular-styles__col"><a class="list-popular-styles__item list-popular-styles__item_dark" href="#">
+                          <div class="list-popular-styles__info"> 
+                            <h4 class="list-popular-styles__title">Классические двери</h4>
+                            <p class="list-popular-styles__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor netus commodo mattis sapien sit quam massa lorem cras eu morbi ipsum</p>
+                          </div>
+                          <div class="list-popular-styles__img lazy" data-bg="url(assets/img/popular-styles/product-4.png)"></div></a></div>
+                    </div>
+                  </div><a class="box-section__link-mobile" href="#">Перейти в каталог
+                    <svg class="box-section__icon-mobile">
+                      <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- About general-->
+          <div class="about-general layout__pad-top">
+            <div class="about-general__container lazy" data-bg="url(assets/img/about-general/bg.png)">
+              <div class="container-fluid">
+                <div class="about-general__content">
+                  <div class="materials"> <img class="materials__img lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 176 179'%3E%3C/svg%3E" data-src="assets/img/about-general/material.png" alt="">
+                    <h5 class="materials__title">только натуральные<br>материалы от <br>проверенных <br>поставщиков</h5>
+                  </div><img class="about-general__door lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 583 583'%3E%3C/svg%3E" data-src="assets/img/about-general/door.png" alt="">
+                  <h4 class="about-general__question">Что такое</h4>
+                  <div class="about-general__info">
+                    <div class="about-general__head">
+                      <h4 class="about-general__title">двери Dariano</h4><a class="about-general__link" href="#">Подробнее
+                        <svg class="about-general__link-icon">
+                          <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
+                        </svg></a>
+                    </div>
+                    <p class="about-general__descr">Двери в стиле «неоклассика», изготовленные из массива сосны. Двери могут быть покрыты натуральным шпоном, либо выполнены в эмалевых покрытиях. Для остекления дверей из наших коллекций, мы используются безопасные закаленные стекла.</p>
+                    <div class="list-features-about">
+                      <div class="list-features-about__item">
+                        <div class="list-features-about__cont-number">
+                          <svg class="list-features-about__icon">
+                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-diamond"></use>
+                          </svg><span class="list-features-about__number">1</span>
+                        </div>
+                        <p class="list-features-about__descr">Европейское <br>качество</p>
+                      </div>
+                      <div class="list-features-about__item">
+                        <div class="list-features-about__cont-number">
+                          <svg class="list-features-about__icon">
+                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-star"></use>
+                          </svg><span class="list-features-about__number">2</span>
+                        </div>
+                        <p class="list-features-about__descr">Множество <br>наград и отзывов</p>
+                      </div>
+                      <div class="list-features-about__item">
+                        <div class="list-features-about__cont-number">
+                          <svg class="list-features-about__icon">
+                            <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-door"></use>
+                          </svg><span class="list-features-about__number">3</span>
+                        </div>
+                        <p class="list-features-about__descr">Более 18 лет <br>на рынке</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- News-->
+          <div class="news layout__pad-top">
+            <div class="container-fluid">
+              <div class="box-section lazy" data-bg="url(assets/img/popular-styles/dots.png)">
+                <div class="box-section__head">
+                  <div class="title-md">Свежие новости</div><a class="box-section__link" href="#">Смотреть все
+                    <svg class="box-section__icon">
+                      <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
+                    </svg></a>
+                </div>
+                <div class="list-news"><a class="list-news__item" href="#">
+                    <div class="list-news__wrapper-img">
+                      <div class="list-news__img lazy" data-bg="url(assets/img/news/news-1.jpg)"></div>
+                    </div>
+                    <div class="list-news__info">
+                      <h4 class="list-news__title">Заголовок для новости</h4>
+                      <p class="list-news__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor netus commodo mattis sapien sit quam massa eros. Sed eu orci at elementum mi sit. Volutpat turpis feugiat lorem cras</p>
+                    </div></a><a class="list-news__item" href="#">
+                    <div class="list-news__wrapper-img">
+                      <div class="list-news__img lazy" data-bg="url(assets/img/news/news-2.jpg)"></div>
+                    </div>
+                    <div class="list-news__info">
+                      <h4 class="list-news__title">Заголовок для новости</h4>
+                      <p class="list-news__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor netus commodo mattis sapien sit quam massa eros. Sed eu orci at elementum mi sit. Volutpat turpis feugiat lorem cras eu morbi ipsum</p>
+                    </div></a></div><a class="box-section__link-mobile" href="#">Смотреть все
+                  <svg class="box-section__icon-mobile">
+                    <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-arrow-right"></use>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Footer-->
+      <footer class="footer-page">
+        <div class="container-fluid">
+          <div class="footer-page__container">
+            <div class="footer-page__col-left"><a class="logo" href="index.html"><img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 101 34'%3E%3C/svg%3E" data-src="assets/img/logo-white.png" alt=""></a><a class="footer-page__call" href="tel:+88461001010">
+                <svg class="footer-page__icon">
+                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-phone"></use>
+                </svg>8 (846) 100-10-10</a><a class="footer-page__email" href="mailto:info.pochtaaa@mail.ru">
+                <svg class="footer-page__icon">
+                  <use xlink:href="assets/img/sprites/sprite.svg#svg-icon-mail"></use>
+                </svg>info.pochtaaa@mail.ru</a></div>
+            <div class="footer-page__col-right">
+              <div class="list-footer-nav footer-page__list-footer-nav">
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Главная</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">О нас</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Доставка</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Контакты</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Акции</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Каталог</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Оплата</a></li>
+                <li class="list-footer-nav__item"><a class="list-footer-nav__link" href="#">Отзывы</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Popups-->
+    </div>
     <!-- Scripts-->
-    <script src="assets/js/bundle.js?v=1575288371225"></script>
+    <script src="assets/js/bundle.js"></script>
   </body>
 </html>
