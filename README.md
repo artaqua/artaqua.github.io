@@ -20,10 +20,7 @@ http://artaqua.github.io/works/compas/catalog-room.html
 http://artaqua.github.io/works/kit/         
 http://artaqua.github.io/works/bridge/        
 http://artaqua.github.io/works/square/                  
-http://artaqua.github.io/works/tatto/        
-https://kvartyroom.ru/           
-https://ongrad.ru/             
-http://atmosferadom.ru/  
+http://artaqua.github.io/works/tatto/
 
 <!-- ## React     
 https://bookfinder123.herokuapp.com/     
